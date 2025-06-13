@@ -26,7 +26,7 @@ def main():
         inner_l=ListNode()
         for _ in range(l):               
             a=int(input())
-            inner_l.val=ListNode(a)
+            inner_l=ListNode(a)
             inner_l=inner_l.next
         lists=lists.next
         
